@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pequizz - Inserir</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-image: url('fundo-abstrato.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        header {
+            background-color: #8b1c41;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 14px;
+            letter-spacing: 0.15em;
+        }
+
+        .header {
+            height: 200px;
+            position: relative;
+        }
+
+        .botao {
+            position: absolute;
+            top: 30px;
+            right: 190px;
+            background: #8b1c41;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            transition: background 0.3s ease;
+        }
+
+        .botao:hover {
+            background: rgba(245, 245, 245, 0.247)
+        }
+
+        .botao2 {
+            position: absolute;
+            top: 30px;
+            right: 25px;
+            background: #8b1c41;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            transition: background 0.3s ease;
+        }
+
+        .botao2:hover {
+            background: rgba(245, 245, 245, 0.247)
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 15px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .texto {
+            display: flex;
+            align-items: center;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            width: 320px;
+            max-width: 500px;
+            margin: 150px auto;
+        }
+
+        .texto input {
+            padding: 16px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            width: 250px;
+
+        }
+
+        .texto button {
+            padding: 16px 28px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            background: #8b1c41;
+            color: white;
+            cursor: pointer;
+        }
+
+        .texto button:hover {
+            background: rgba(0, 0, 0, 0.548);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <center>
+            <a href="Pequizizz.html"><img src="https://i.ibb.co/MDRzdc3Y/Pequizizz-1-removebg-preview.png"
+                    alt="Pequizizz-removebg-preview">
+            </a>
+        </center>
+
+        <button class="botao">LOGIN</button>
+        <button class="botao2">INSERIR CÓDIGO</button>
+    </header>
+
+    <center>
+        <h1>Insira seu código de Pequizz personalizado</h1>
+    </center>
+
+    <div class="texto">
+        <input type="text" placeholder="Digite o código do Pequizz" />
+        <button>Jogar</button>
+    </div>
+
+
+
+    <footer class="footer">Copyright © Pequizizz. Todos os direitos reservados.</footer>
+
+</body>
+
+</html>
