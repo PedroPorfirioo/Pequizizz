@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pequizizz - Jogando</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-image: url('fundo-abstrato.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        .slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 700px;
+        }
+
+        .foto {
+            border-radius: 12px;
+            box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+            width: 70%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .foto img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .setas {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            gap: 10px;
+            z-index: 10;
+        }
+
+        .seta {
+            background: #222;
+            color: white;
+            border: none;
+            font-size: 28px;
+            padding: 10px 14px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .seta1 {
+            background: #22222286;
+            color: rgba(255, 255, 255, 0.555);
+            border: none;
+            font-size: 28px;
+            padding: 10px 14px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .user {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+            color: white;
+        }
+
+        .user img {
+            height: 45px;
+            margin-right: 6px;
+        }
+
+        .sv {
+            position: absolute;
+            bottom: 550px;
+            left: 20px;
+            background: #8b1c41;
+            color: white;
+            border: none;
+            font-size: 28px;
+            padding: 10px 14px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="slide">
+        <div class="foto">
+            <img src="https://i.ibb.co/M5hgB2MW/1.png" alt="1">
+        </div>
+    </div>
+
+    <div class="setas">
+        <button class="seta1">◀</button>
+        <a href="jogabilidade.html"><button class="seta">▶</button></a>
+    </div>
+
+    <a href="dificuldades.html">
+        <button class="sv">◀</button>
+    </a>
+
+    <div class="user">
+        <img src="https://i.ibb.co/G3FVYPCN/image.png" alt="titulo">
+        <div>
+            <h1>Pedro Porfirio</h1>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pequizz - Ínicio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-image: url('fundo-abstrato.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        header {
+            background-color: #8b1c41;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 14px;
+            letter-spacing: 0.15em;
+        }
+
+        .header {
+            height: 200px;
+            position: relative;
+        }
+
+        .botao {
+            position: absolute;
+            top: 30px;
+            right: 190px;
+            background: #8b1c41;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            transition: background 0.3s ease;
+        }
+
+        .botao:hover {
+            background: rgba(245, 245, 245, 0.247)
+        }
+
+        .botao2 {
+            position: absolute;
+            top: 30px;
+            right: 25px;
+            background: #8b1c41;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            transition: background 0.3s ease;
+        }
+
+        .botao2:hover {
+            background: rgba(245, 245, 245, 0.247)
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 15px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .atividades {
+            margin: 40px auto;
+            max-width: 1100px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .jogo1 {
+            background-color: #09ff00c2;
+            border-radius: 12px;
+            width: 200px;
+            padding: 20px;
+            color: white;
+            text-align: left;
+        }
+
+        .jogo2 {
+            background-color: #002fffc4;
+            border-radius: 12px;
+            width: 200px;
+            padding: 20px;
+            color: white;
+            text-align: left;
+        }
+
+        .jogo3 {
+            background-color: #ff0000a2;
+            border-radius: 12px;
+            width: 200px;
+            padding: 20px;
+            color: white;
+            text-align: left;
+        }
+
+        .jogo1 img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .jogo2 img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .jogo3 img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .jogo .titulo {
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+
+        .jogo .criador {
+            font-size: 13px;
+            margin-bottom: 3px;
+            text-align: center;
+        }
+
+        .tp {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 50px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <center>
+            <a href="Pequizizz.html"><img src="https://i.ibb.co/MDRzdc3Y/Pequizizz-1-removebg-preview.png"
+                    alt="Pequizizz-removebg-preview">
+            </a>
+        </center>
+
+        <button class="botao">LOGIN</button>
+
+        <a href="código.html"><button class="botao2">INSERIR CÓDIGO</button></a>
+    </header>
+
+
+    <div class="tp">Dificuldades:</div>
+
+    <div class="atividades">
+        <a href="jogar.html">
+            <div class="jogo1">
+                <img src="https://i.ibb.co/3yLKSQNb/image.png" alt="Paiaso">
+        </a>
+        <div class="titulo">Fácil</div>
+        <div class="criador">Se errar, porfavor, ESTUDE!</div>
+    </div>
+    <div class="jogo2">
+        <img src="https://i.ibb.co/39Lc75vv/1bfe3647625d10fbbb06aaa2527a1fff-removebg-preview.png"
+            alt="Emoticon Normal face">
+        <div class="titulo">Médio</div>
+        <div class="criador">Se errar 2 já ta burro.</div>
+    </div>
+    <div class="jogo3">
+        <img src="https://i.ibb.co/gL56fj7t/image.png" alt="image">
+        <div class="titulo">Díficl</div>
+        <div class="criador">Errar faz parte.</div>
+    </div>
+
+    <footer class="footer">Copyright © Pequizizz. Todos os direitos reservados.</footer>
+
+</body>
+
+</html>

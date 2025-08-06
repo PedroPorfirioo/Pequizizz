@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pequizz - Ínicio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-image: url('fundo-abstrato.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        header {
+            background-color: #8b1c41;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 14px;
+            letter-spacing: 0.15em;
+        }
+
+        .header {
+            height: 200px;
+            position: relative;
+        }
+
+        .botao {
+            position: absolute;
+            top: 30px;
+            right: 190px;
+            background: #8b1c41;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            transition: background 0.3s ease;
+        }
+
+        .botao:hover {
+            background: rgba(245, 245, 245, 0.247)
+        }
+
+        .botao2 {
+            position: absolute;
+            top: 30px;
+            right: 25px;
+            background: #8b1c41;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            transition: background 0.3s ease;
+        }
+
+        .botao2:hover {
+            background: rgba(245, 245, 245, 0.247)
+        }
+
+        .footer {
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 15px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .atividades {
+            margin: 40px auto;
+            max-width: 1100px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .jogo {
+            background-color: #ffffff1a;
+            border-radius: 12px;
+            width: 200px;
+            padding: 20px;
+            color: white;
+            text-align: left;
+        }
+
+        .jogo img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .jogo .titulo {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .jogo .criador {
+            font-size: 13px;
+            margin-bottom: 3px;
+        }
+
+        .tp {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 50px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <center>
+            <a href="Pequizizz.html"><img src="https://i.ibb.co/MDRzdc3Y/Pequizizz-1-removebg-preview.png"
+                    alt="Pequizizz-removebg-preview">
+            </a>
+        </center>
+
+        <button class="botao">LOGIN</button>
+
+        <a href="código.html"><button class="botao2">INSERIR CÓDIGO</button></a>
+    </header>
+
+    <div style="text-align: center; margin-top: 50px; margin-bottom: 150px;">
+        <p style="font-size: 30px; max-width: 650px; margin: 0 auto;">
+            O <strong>Pequizizz</strong> é uma plataforma divertida e educativa para testar seus conhecimentos com
+            quizzes interativos.<br>
+            Explore diferentes temas, aprenda brincando e desafie sua inteligência!
+        </p>
+    </div>
+
+    <div class="tp">Pequizizz recomendados:</div>
+
+    <div class="atividades">
+        <a href="dificuldades.html">
+            <div class="jogo">
+                <img src="https://i.ibb.co/PGtHdb8X/image.png" alt="image">
+        </a>
+        <div class="titulo">Crimes Virtuais</div>
+        <div class="criador">Por: Pequizizz</div>
+    </div>
+    <div class="jogo">
+        <img src="https://i.ibb.co/bRzrDpwH/image.png" alt="image">
+        <div class="titulo">Álgebra</div>
+        <div class="criador">Por: Pequizizz</div>
+    </div>
+    <div class="jogo">
+        <img src="https://i.ibb.co/HTkBZzSW/image.png" alt="image">
+        <div class="titulo">Comunismo</div>
+        <div class="criador">Por: Pequizizz</div>
+    </div>
+    <div class="jogo">
+        <img src="https://i.ibb.co/SXMV8FYX/image.png" alt="image">
+        <div class="titulo">Terra e Espaço</div>
+        <div class="criador">Por: Pequizizz</div>
+    </div>
+    </div>
+
+    <footer class="footer">Copyright © Pequizizz. Todos os direitos reservados.</footer>
+
+</body>
+
+</html>
